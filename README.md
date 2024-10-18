@@ -23,7 +23,7 @@ In this article, I will walk you through the concept of parsers, their importanc
 
 ---
 
-## ## Markdown Parsing
+## Markdown Parsing
 
 When it comes to Markdown specifically, the goal is to convert it into HTML, which uses opening and closing tags. To do this efficiently, a recursive approach to parsing can be useful.
 
