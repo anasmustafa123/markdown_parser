@@ -1,0 +1,13 @@
+{
+  "name": "md_parser",
+  "version": "1.0.0",
+  "main": "tokenizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tokenizer": "tsc Tokenize.ts --lib es2015,dom && node Tokenize.js",
+    "parser": "tsc parser.ts --lib es2015,dom && node parser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
